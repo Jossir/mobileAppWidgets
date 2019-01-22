@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.pageman.com/feedwidget" version="0.1.0"
+        xmlns:pe="http://pageman.com/ns/widget-extensions">
+    <!-- Name of the widget -->
+    <name>Instagram widget</name>
+    <!-- Description is shown when installing widget -->
+    <description>Instagram Widget</description>
+    <!-- Start page for widget -->
+    <content src="index.html" />
+    <!-- Default icon for widget -->
+    <icon src="Assets/icon.jpg" />
+    <!-- Widget author -->
+    <author>Jose Sirba</author>
+    <!-- Parameter File -->
+    <pe:parameters src="parameters.json"></pe:parameters>
+</widget>
+
