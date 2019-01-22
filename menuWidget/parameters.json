@@ -1,0 +1,153 @@
+{
+  "parameters": [
+
+    {
+      "name": "tenantID",
+      "label": "Tenant ID",
+      "type": "text",
+      "default": "2328",
+      "required": true
+    }
+    ,{
+      "name": "groupOfItem",
+      "label": "The group of menu items to display. Example: Breakfast",
+      "type": "text",
+      "default": "Breakfast",
+      "required": true
+    },
+    {
+      "name": "timeTillImageTransition",
+      "label": "Image transition delay in seconds",
+      "type": "text",
+      "default": "10",
+      "required": true
+    },
+    {
+      "name": "ImagePaginationSpeed",
+      "label": "speed taken for photo transition in seconds",
+      "type": "text",
+      "default": "3",
+      "required": true
+    },
+    {
+      "name": "showCaption",
+      "label": "Show image caption",
+      "type": "text",
+      "default": "true",
+      "required": true
+    },
+    {
+      "name": "captionColour",
+      "label": "Caption colour. Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "white",
+      "required": true
+    },
+    {
+      "name": "newsTransitionSpeed",
+      "label": "News transition delay in seconds.",
+      "type": "text",
+      "default": "12",
+      "required": true
+    },
+    {
+      "name": "backgroundColour",
+      "label": "background colour. Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#d1d1d1",
+      "required": true
+    },
+    {
+      "name": "div1BackgroundColour",
+      "label": "items background colour(Left column). Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#676767",
+      "required": true
+    },
+    {
+      "name": "div2BackgroundColour",
+      "label": "pricing background colour(middle column). Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#676767",
+      "required": true
+    },
+    {
+      "name": "div3BackgroundColour",
+      "label": "image background colour(Right column). Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#676767",
+      "required": true
+    },
+    {
+      "name": "footerBackgroundColour",
+      "label": "Footer background colour(bottom). Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#676767",
+      "required": true
+    },
+    {
+      "name": "textColour",
+      "label": "Main Text colour. Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#f1f1f1",
+      "required": true
+    },
+    {
+      "name": "textColourHeading",
+      "label": "Heading Text colour. Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#f1f1f1",
+      "required": true
+    },
+    {
+      "name": "textColourNews",
+      "label": "Bottom news Text colour. Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#f1f1f1",
+      "required": true
+    },
+    {
+      "name": "textColourCaption",
+      "label": "Image caption Text colour. Can be given in colour code or colour name. Example: #FFFFFF or white",
+      "type": "text",
+      "default": "#f1f1f1",
+      "required": true
+    },
+    {
+      "name": "fontFamily",
+      "label": "fontFamily for the text",
+      "type": "text",
+      "default": "'Source Sans Pro', 'Helvetica Neue', 'Helvetica,Arial', 'sans-serif'",
+      "required": true
+    },
+    {
+      "name": "showLogo",
+      "label": "Show the tenant logo",
+      "type": "text",
+      "default": "true",
+      "required": true
+    },
+    {
+      "name": "numberOfItems",
+      "label": "Number of items to be displayed at once",
+      "type": "text",
+      "default": "15",
+      "required": true
+    },
+    {
+      "name": "fontSize",
+      "label": "fontSize of item name and price in px",
+      "type": "text",
+      "default": "32.4",
+      "required": true
+    },
+    {
+      "name": "transitionTime",
+      "label": "time for menu items to transition in seconds",
+      "type": "text",
+      "default": "10",
+      "required": true
+    }
+
+  ]
+}
